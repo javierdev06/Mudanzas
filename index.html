@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MuevoCL — Mudanzas & Transporte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#inicio" class="logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24"><path d="M1 3h15l2 5H1V3z"/><path d="M1 8h17l3 4v3H1V8z"/><circle cx="6" cy="17" r="2"/><circle cx="18" cy="17" r="2"/></svg>
+    </div>
+    <span class="logo-name">Muevo<span>CL</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#galeria">Camión</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <a href="https://wa.me/56964217053?text=Hola!%20Quisiera%20cotizar%20una%20mudanza." target="_blank" class="nav-wstp">
+    <img src="imagenes/wstp.png" alt="WhatsApp" style="width:18px;height:18px;object-fit:contain;flex-shrink:0;">
+    WhatsApp
+  </a>
+  <button class="ham" id="ham" aria-label="Menú"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mob-menu" id="mobMenu">
+  <a href="#inicio" onclick="closeMob()">Inicio</a>
+  <a href="#servicios" onclick="closeMob()">Servicios</a>
+  <a href="#galeria" onclick="closeMob()">Nuestro Camión</a>
+  <a href="#nosotros" onclick="closeMob()">Nosotros</a>
+  <a href="#contacto" onclick="closeMob()">Contacto</a>
+
+</div>
+
+<!-- HERO -->
+<section id="inicio">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-left">
+    <div class="hero-chip">Disponible 24 hrs · 7 días</div>
+    <h1 class="hero-h1">
+      Tu mudanza,<br>
+      <span class="gold">sin estrés</span><br>
+      ni sorpresas.
+    </h1>
+    <p class="hero-p">Mudanzas dentro y fuera de la región. Camión cerrado de 27 m³, carga y descarga incluida. Puntualidad y cuidado garantizados.</p>
+    <div class="hero-stats">
+      <div><div class="hstat-n">27m³</div><div class="hstat-l">Capacidad</div></div>
+      <div><div class="hstat-n">24/7</div><div class="hstat-l">Disponible</div></div>
+      <div><div class="hstat-n">100%</div><div class="hstat-l">Comprometidos</div></div>
+    </div>
+    <div class="hero-btns">
+      <a href="https://wa.me/56964217053?text=Hola!%20Quisiera%20cotizar%20una%20mudanza." target="_blank" class="btn-wstp">
+        <img src="imagenes/wstp.png" alt="WhatsApp" style="width:18px;height:18px;object-fit:contain;flex-shrink:0;">
+        Cotizar por WhatsApp
+      </a>
+      <a href="#contacto" class="btn-outline">Formulario de contacto →</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="foto-wrap">
+      <img src="imagenes/camion-lateral.jpg" alt="Camión MuevoCL" class="foto-main">
+      <img src="imagenes/camion-trasero.jpg" alt="Camión trasero" class="foto-thumb">
+      <div class="foto-card">
+        <div class="foto-card-n">27m³</div>
+        <div class="foto-card-l">Mitsubishi Fuso cerrado</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div style="max-width:1100px;margin:0 auto">
+    <div class="eyebrow rv">— Servicios</div>
+    <h2 class="sec-h2 rv d1">Todo lo que necesitas<br>para tu traslado</h2>
+    <p class="sec-p rv d2">Desde una mudanza de departamento hasta traslados inter-regionales. Nos adaptamos a tus tiempos y necesidades.</p>
+  </div>
+  <div class="serv-grid">
+    <div class="sc rv d1">
+      <div class="sc-num">01</div>
+      <div class="sc-icon"><svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+      <div class="sc-name">Mudanzas locales</div>
+      <div class="sc-desc">Traslados dentro de la ciudad y la región. Puntual, cuidadoso y sin complicaciones.</div>
+      <span class="sc-tag">Dentro de la región</span>
+    </div>
+    <div class="sc rv d2">
+      <div class="sc-num">02</div>
+      <div class="sc-icon"><svg viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg></div>
+      <div class="sc-name">Mudanzas inter-regionales</div>
+      <div class="sc-desc">¿Te vas lejos? Llegamos a otras regiones del país. Tu hogar, trasladado con seguridad.</div>
+      <span class="sc-tag">Fuera de la región</span>
+    </div>
+    <div class="sc rv d3">
+      <div class="sc-num">03</div>
+      <div class="sc-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+      <div class="sc-name">Carga y descarga</div>
+      <div class="sc-desc">Incluimos mano de obra. Subimos y bajamos tus cosas con cuidado. Tú no tienes que preocuparte.</div>
+      <span class="sc-tag">Con personal</span>
+    </div>
+    <div class="sc rv d1">
+      <div class="sc-num">04</div>
+      <div class="sc-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+      <div class="sc-name">Transporte de carga general</div>
+      <div class="sc-desc">Muebles, electrodomésticos, cajas, maquinaria liviana. Cualquier carga que necesites mover.</div>
+      <span class="sc-tag">Todo tipo de carga</span>
+    </div>
+    <div class="sc rv d2">
+      <div class="sc-num">05</div>
+      <div class="sc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+      <div class="sc-name">Disponibilidad 24/7</div>
+      <div class="sc-desc">Todos los días, a cualquier hora. La mudanza se hace cuando tú lo necesitas.</div>
+      <span class="sc-tag">Lunes a domingo</span>
+    </div>
+    <div class="sc rv d3">
+      <div class="sc-num">06</div>
+      <div class="sc-icon"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+      <div class="sc-name">Presupuesto sin costo</div>
+      <div class="sc-desc">Cuéntanos qué necesitas y te damos el precio. Sin compromisos, sin sorpresas.</div>
+      <span class="sc-tag">Gratis</span>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <div style="max-width:960px;margin:0 auto">
+    <div class="eyebrow rv">— Nuestro equipo</div>
+    <h2 class="sec-h2 rv d1">El camión que moverá tu vida</h2>
+    <p class="sec-p rv d2">Mitsubishi Fuso completamente cerrado. Tu carga viaja protegida del clima y de cualquier imprevisto.</p>
+    <div class="gal-grid">
+      <div class="gi rv d1"><img src="imagenes/camion-lateral.jpg" alt="Vista lateral"><div class="gi-ov"><span class="gi-label">Vista frontal lateral</span></div></div>
+      <div class="gi rv d2"><img src="imagenes/camion-trasero.jpg" alt="Vista trasera"><div class="gi-ov"><span class="gi-label">Puertas de carga</span></div></div>
+    </div>
+    <div class="specs-bar rv">
+      <div class="sp"><span class="sp-n">27</span><span class="sp-l">Metros cúbicos</span></div>
+      <div class="sp-div"></div>
+      <div class="sp"><span class="sp-n">100%</span><span class="sp-l">Cerrado</span></div>
+      <div class="sp-div"></div>
+      <div class="sp"><span class="sp-n">Fuso</span><span class="sp-l">Mitsubishi</span></div>
+      <div class="sp-div"></div>
+      <p class="sp-desc">Carrocería cerrada que protege tus pertenencias del clima y golpes. Ideal para casas, departamentos y locales comerciales.</p>
+    </div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="nos-wrap">
+    <div class="nos-img-rel rv">
+      <img src="imagenes/camion-trasero.jpg" alt="Camión en trabajo" class="nos-img">
+      <div class="nos-badge"><div class="nos-badge-n">24/7</div><div class="nos-badge-l">Siempre disponible</div></div>
+    </div>
+    <div>
+      <div class="eyebrow rv">— ¿Por qué elegirnos?</div>
+      <h2 class="sec-h2 rv d1">Trato directo,<br>sin intermediarios</h2>
+      <p class="sec-p rv d2">Cuando contratas con MuevoCL, la persona a cargo de tu mudanza está directamente disponible para ti. Sin call centers, sin sorpresas.</p>
+      <div class="feats">
+        <div class="feat rv d1">
+          <div class="feat-ic"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+          <div><div class="feat-title">Camión propio y en buen estado</div><div class="feat-desc">No tercerizamos. Nuestro Mitsubishi Fuso está siempre disponible y en condiciones óptimas.</div></div>
+        </div>
+        <div class="feat rv d2">
+          <div class="feat-ic"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div><div class="feat-title">Tus cosas, seguras</div><div class="feat-desc">Carrocería cerrada, manejo responsable y cuidado en cada etapa del traslado.</div></div>
+        </div>
+        <div class="feat rv d3">
+          <div class="feat-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div><div class="feat-title">A tu horario</div><div class="feat-desc">Todos los días, a cualquier hora. Coordinamos según lo que a ti te acomode mejor.</div></div>
+        </div>
+        <div class="feat rv d4">
+          <div class="feat-ic"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+          <div><div class="feat-title">Atención personalizada</div><div class="feat-desc">Respuesta rápida por WhatsApp o correo. Hablas directo con quien hace tu mudanza.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div style="max-width:1100px;margin:0 auto">
+    <div class="eyebrow rv">— Contacto</div>
+    <h2 class="sec-h2 rv d1">¿Listo para mover?<br>Escríbenos ahora</h2>
+  </div>
+  <div class="ct-wrap">
+    <div class="rv">
+      <div class="ct-datos">
+        <a href="https://wa.me/56964217053?text=Hola!%20Quisiera%20cotizar%20una%20mudanza." target="_blank" class="ct-dato">
+          <div class="ct-dato-ic i-wstp"><img src="imagenes/wstp.png" alt="WhatsApp" style="width:22px;height:22px;object-fit:contain;"></div>
+          <div><div class="ct-dato-lbl">WhatsApp</div><div class="ct-dato-val">+56 9 6421 7053</div></div>
+        </a>
+        <a href="mailto:transpedroemiliano@gmail.com" class="ct-dato">
+          <div class="ct-dato-ic i-mail"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="ct-dato-lbl">Correo electrónico</div><div class="ct-dato-val">transpedroemiliano@gmail.com</div></div>
+        </a>
+        <div class="ct-dato" style="cursor:default">
+          <div class="ct-dato-ic i-clock"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div><div class="ct-dato-lbl">Horario de atención</div><div class="ct-dato-val">Todos los días — 24 horas</div></div>
+        </div>
+      </div>
+      <a href="https://wa.me/56964217053?text=Hola!%20Quisiera%20cotizar%20una%20mudanza." target="_blank" class="btn-wstp-full">
+        <img src="imagenes/wstp.png" alt="WhatsApp" style="width:22px;height:22px;object-fit:contain;flex-shrink:0;">
+        Cotizar por WhatsApp ahora
+      </a>
+    </div>
+
+    <div class="fcard rv d2">
+      <div id="fWrap">
+        <div class="fcard-title">Envíanos un mensaje</div>
+        <p class="fcard-sub">Te respondemos a la brevedad por correo o WhatsApp.</p>
+        <form id="cForm" novalidate>
+          <div class="fgrid">
+            <div class="fg">
+              <label for="nombre">Nombre <span class="req">*</span></label>
+              <input type="text" id="nombre" placeholder="Tu nombre" autocomplete="off">
+              <span class="emsg" id="e-nombre">Solo letras y espacios.</span>
+            </div>
+            <div class="fg">
+              <label for="tel">Teléfono <span class="req">*</span></label>
+              <div class="tel-row">
+                <div class="tel-pre">+56</div>
+                <input type="tel" id="tel" placeholder="9 dígitos" maxlength="9" inputmode="numeric">
+              </div>
+              <span class="emsg" id="e-tel">Exactamente 9 dígitos.</span>
+            </div>
+            <div class="fg full">
+              <label for="email">Correo electrónico <span class="req">*</span></label>
+              <input type="email" id="email" placeholder="tucorreo@email.com">
+              <span class="emsg" id="e-email">Ingresa un correo válido.</span>
+            </div>
+            <div class="fg full">
+              <label for="servicio">Tipo de servicio <span class="req">*</span></label>
+              <select id="servicio">
+                <option value="">— Selecciona un servicio —</option>
+                <option value="mudanza-local">Mudanza local (dentro de la región)</option>
+                <option value="mudanza-interregional">Mudanza inter-regional</option>
+                <option value="carga-descarga">Solo carga y descarga</option>
+                <option value="transporte-carga">Transporte de carga general</option>
+                <option value="otro">Otro (lo detallo en el mensaje)</option>
+              </select>
+              <span class="emsg" id="e-servicio">Selecciona un tipo de servicio.</span>
+            </div>
+            <div class="fg full">
+              <label for="mensaje">Mensaje <span class="req">*</span></label>
+              <textarea id="mensaje" placeholder="Cuéntanos qué necesitas: origen, destino, cantidad de cosas, fecha estimada..."></textarea>
+              <span class="emsg" id="e-mensaje">Por favor escribe tu mensaje.</span>
+            </div>
+          </div>
+          <button type="submit" class="btn-send">
+            Enviar mensaje
+            <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </form>
+      </div>
+      <div class="fok" id="fOk">
+        <div class="fok-ring"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="fok-title">¡Mensaje enviado!</div>
+        <p class="fok-sub">Gracias. Te responderemos a la brevedad por correo o WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-logo">Muevo<span>CL</span></div>
+  <div class="ft-mid">© 2025 MuevoCL · Transporte, Carga &amp; Turismo · Chile</div>
+  <div class="ft-links">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+    <a href="https://wa.me/56964217053" target="_blank">WhatsApp</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
